@@ -8,6 +8,7 @@ public class Main {
         } else {
             bonus = 0;
         }
-        System.out.println( "Бонусные рубли: " + bonus);
-        System.out.println( "Итоговая сумма: " + amount + bonus);
+        System.out.println("Бонусные рубли: " + bonus);
+        System.out.println("Итоговая сумма: " + (amount+add+bonus));
     }
+}
