@@ -9,6 +9,6 @@ public class Main {
             bonus = 0;
         }
         System.out.println("Бонусные рубли: " + bonus);
-        System.out.println("Итоговая сумма: " + (amount+add+bonus));
+        System.out.println("Итоговая сумма: " + (amount + add + bonus));
     }
 }
